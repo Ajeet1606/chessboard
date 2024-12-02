@@ -1,14 +1,12 @@
-import './App.css'
-import { Button } from './components/ui/button'
+import "./App.css";
+import Board from "./pages/Board";
 
 function App() {
-
   return (
-    <>
-     <h1 className='text-3xl font-bold'>Hello</h1>
-     <Button>Button</Button>
-    </>
-  )
+    <div className="w-full h-[100vh] flex flex-col justify-center items-center mx-auto">
+      <Board />
+    </div>
+  );
 }
 
-export default App
+export default App;
